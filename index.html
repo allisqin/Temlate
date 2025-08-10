@@ -55,6 +55,7 @@
             сгенерировать несколько абзацев более менее осмысленного текста рыбы
             на русском языке, а начинающему оратору отточить.
           </p>
+          <img src="img/arrow-left.svg" alt="Предыдущий" class="arrow-left" />
           <ul class="features__list">
             <li class="features__item">
               <div class="features__item-num">1</div>
@@ -73,8 +74,73 @@
               <p class="features__item-text">Четвертое целевое преимущество</p>
             </li>
           </ul>
+          <img src="img/arrow-right.svg" alt="Следующий" class="arrow-right" />
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title">Остались вопросы?</h2>
+          <p class="contacts__subtitle">
+            Оставьте номер телефона, и мы перезвоним вам
+          </p>
+          <form class="contacts__form">
+            <input
+              type="text"
+              class="contacts__form-input"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="tel"
+              class="contacts__form-input"
+              placeholder="Телефон"
+            />
+            <input
+              type="email"
+              class="contacts__form-input"
+              placeholder="E-mail"
+            />
+            <input
+              type="submit"
+              value="позвоните мне"
+              class="contacts__form-btn"
+            />
+          </form>
+          <p class="contacts__agree">
+            Я даю своё <a href="#">согласие</a> на обработку моих персональных
+            данных.
+          </p>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container footer__wrapper">
+        <div class="left">
+          <div class="footer__logo"><img src="img/Logo.svg" alt="Logo" /></div>
+          <div class="footer__copyright">
+            © 2022 XXXcompany. Все права защищены.
+          </div>
+        </div>
+        <div class="center">
+          <p class="footer__author">Сделано Волковой Алисой</p>
+        </div>
+        <div class="right">
+          <div class="footer__cta">
+            <a href="tel:+79625561234"
+              ><img
+                src="img/phone.svg"
+                alt="Перезвоните мне"
+                class="footer__cta-icon"
+            /></a>
+            <a href="tel:+79625561234" class="footer__cta-link"
+              >+7(962) 556 1234
+              <br />
+              <span>Перезвоните мне</span>
+            </a>
+            <!-- <br />
+            <span>Перезвоните мне</span> -->
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
