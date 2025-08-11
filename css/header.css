@@ -15,16 +15,17 @@
 
 
 .header__cta {
-   /* color: #fff; */
    text-align: center;
 }
 
 .header__cta-link {
+   display: block;
    font-size: 24px;
+   margin-bottom: 5px;
    transition: ease-in .3s;
 }
 
-.header__cta span {
+.header__cta-call {
    font-size: 16px;
    text-decoration: underline;
 }
@@ -87,10 +88,7 @@
 
    .header__cta-link {
       font-size: 21px;
-   }
-
-   .header__cta span {
-      font-size: 13px;
+      margin-bottom: 4px;
    }
 
    .header__title {
@@ -142,7 +140,7 @@
       height: 30px;
    }
 
-   .header__cta-link {
+   .header__cta-link, .header__cta-call {
       color: transparent;
    }
 

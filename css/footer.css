@@ -39,7 +39,7 @@
    font-size: 24px;
 }
 
-.footer__cta-link span {
+.footer__cta-call {
    font-size: 16px;
    text-decoration: underline;
    text-align: center;
@@ -50,7 +50,7 @@
       font-size: 21px;
    }
 
-   .footer__cta-link span {
+   .footer__cta-link p {
       font-size: 13px;
    }
 }
@@ -74,7 +74,7 @@
       font-size: 8px;
    }
 
-   .footer__cta-link {
+   .footer__cta-link, .footer__cta-call {
       display: none;
    }
 
